@@ -5,15 +5,15 @@ import fs from 'fs'
 
 //Owner Numbers 
 global.owner = [
-  ['923042205427', 'Prince', true],
+  ['923429447356', '♡ᴍʀ-ʜɪᴅᴅᴇɴ㋡', true],
   [''], 
   [''],
 ]
 
 //global.pairingNumber = "" //put your bot number here
-global.mods = ['923042205427'] 
-global.prems = ['923042205427', '923042205427', '923042205427']
-global.allowed = ['923042205427']
+global.mods = ['923429447356'] 
+global.prems = ['923429447356', '923400449505', '923020905958']
+global.allowed = ['923429447356']
 global.keysZens = ['c2459db922', '37CC845916', '6fb0eff124']
 global.keysxxx = keysZens[Math.floor(keysZens.length * Math.random())]
 global.keysxteammm = ['29d4b59a4aa687ca', '5LTV57azwaid7dXfz5fzJu', 'cb15ed422c71a2fb', '5bd33b276d41d6b4', 'HIRO', 'kurrxd09', 'ebb6251cc00f9c63']
@@ -37,22 +37,22 @@ global.APIKeys = { // APIKey Here
 }
 
 // Sticker WM
-global.botname = 'PЯINCΣ-BOT-MÐ'
-global.princebot = '🛡️ᑭᖇIᑎᑕᕮ ᗷOT ᗰᗪ🛡️'
-global.packname = 'Prince┃ᴮᴼᵀ' 
-global.author = '@Prince' 
-global.princeig = '▢ Sígueme en Instagram\nhttps://www.instagram.com/fg98_ff\n' 
-global.princegp = 'https://chat.whatsapp.com/GWJkAJSgbv27sGOMLAzMDS'
-global.menuvid = 'https://i.imgur.com/QzqvOW0.mp4'
+global.botname = '♡ᴍʀ-ʜɪᴅᴅᴇɴ_ʙᴏᴛ㋡'
+global.princebot = '🛡️ᴍʀ-ʜɪᴅᴅᴇɴ🛡️'
+global.packname = 'ᴍʀ-ʜɪᴅᴅᴇɴ┃⁹²³⁴²⁹⁴⁴⁷³⁵⁶' 
+global.author = '@Mr_HiddenX' 
+global.princeig = '▢ Sígueme en Instagram\nhttps://www.instagram.com/romantic__life__01\n' 
+global.princegp = 'https://chat.whatsapp.com/F6SfoiNYw2q8sbcQW1lvWs'
+global.menuvid = 'https://i.imgur.com/g6QeMxB.mp4'
 global.Princesc = 'https://github.com/PRINCE-GDS/THE-PRINCE-BOT' 
 global.princeyt = 'https://youtube.com/'
-global.Princelog = 'https://i.imgur.com/cUvIv5w.jpeg'
+global.Princelog = 'https://i.imgur.com/T9RLU0I.jpeg'
 global.thumb = fs.readFileSync('./Assets/Prince.png')
 
 global.wait = '*♻️ _𝙶𝙴𝚃𝚃𝙸𝙽𝙶 𝚈𝙾𝚄𝚁 𝙵𝙸𝙻𝙴 𝚆𝙰𝙸𝚃..._*\n*▰▰▰▱▱▱▱▱*'
 global.imgs = '*🖼️ _𝙶𝙴𝚃𝚃𝙸𝙽𝙶 𝚈𝙾𝚄𝚁 ɪᴍᴀɢᴇs 𝚆𝙰𝙸𝚃..._*\n*▰▰▰▱▱▱▱▱*'
 global.rwait = '♻️'
-global.dmoji = '🤭'
+global.dmoji = '🔞'
 global.done = '✅'
 global.error = '❌' 
 global.xmoji = '🌀' 
