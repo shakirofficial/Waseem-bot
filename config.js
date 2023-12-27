@@ -5,7 +5,7 @@ import fs from 'fs'
 
 //Owner Numbers 
 global.owner = [
-  ['923042205427', 'Prince', false],
+  ['254758943247', 'eliphas', false],
   [''], 
   [''],
 ]
@@ -37,10 +37,10 @@ global.APIKeys = { // APIKey Here
 }
 
 // Sticker WM
-global.botname = 'PЯINCΣ-BOT-MÐ'
+global.botname = 'eliphas'
 global.princebot = '🛡️ᑭᖇIᑎᑕᕮ ᗷOT ᗰᗪ🛡️'
 global.packname = 'Prince♥️' 
-global.author = 'Prince♥️' 
+global.author = 'eliphas' 
 global.princeig = 'https://www.instagram.com' 
 global.princegp = 'https://chat.whatsapp.com/GWJkAJSgbv27sGOMLAzMDS'
 global.menuvid = 'https://i.imgur.com/GFAAXqw.mp4'
