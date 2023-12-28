@@ -56,12 +56,12 @@ let infobt = `
 ▢ *${chats.length}* Total Chats
 
 *≡ OWNER🧑‍💻*
- _PRINCE GDS_
+ _*Mr_HiddenX*_
 ▢ MY CONTACT NUMBER.
-  wa.me/923042205427
+  wa.me/923429447356
   
 ▢ MY BOT GC LINK.
-  https://chat.whatsapp.com/GWJkAJSgbv27sGOMLAzMDS
+  https://chat.whatsapp.com/F6SfoiNYw2q8sbcQW1lvWs
 
  *≡ S E R V E R*
 *🛑 RAM:* ${format(totalmem() - freemem())} / ${format(totalmem())}
@@ -76,6 +76,6 @@ m.react(done)
 }
 handler.help = ['info']
 handler.tags = ['main']
-handler.command = ['info', 'infobot', 'botinfo', 'bot']
+handler.command = ['info', 'infobot', 'botinfo', 'bot', 'danish', 'Hello']
 
 export default handler
