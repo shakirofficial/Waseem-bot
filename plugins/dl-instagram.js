@@ -22,7 +22,7 @@ for (let i = 0; i < img.length; i++) {
 }
   } catch {   
   try {
-    let cap = 'Here is your insta video';
+    let cap = 'Here is your insta video *DOWNLOADED BY @MR_HIDDENX*';
     const datTa = await instagram.download(args[0]);
     for (const urRRl of datTa) {
       const shortUrRRl = await (await fetch(`https://tinyurl.com/api-create.php?url=${args[0]}`)).text();
@@ -32,21 +32,21 @@ for (let i = 0; i < img.length; i++) {
     }
   } catch {
       try {
-        let cap = 'Here is your insta video';
+        let cap = 'Here is your insta video *DOWNLOADED BY @MR_HIDDENX*';
         const resultss = await instagramGetUrl(args[0]).url_list[0];
         const shortUrl2 = await (await fetch(`https://tinyurl.com/api-create.php?url=${args[0]}`)).text();
         const txt2 = `_*< Instagram downloader/>*_\n\n▢ *URL:* _${shortUrl2}_`.trim();
         await conn.sendFile(m.chat, resultss, 'error.mp4', txt2, cap, m);
       } catch {
         try {
-          let cap = 'Here is your insta video';
+          let cap = 'Here is your insta video *DOWNLOADED BY @MR_HIDDENX*';
           const resultssss = await instagramdl(args[0]);
           const shortUrl3 = await (await fetch(`https://tinyurl.com/api-create.php?url=${args[0]}`)).text();
           const txt4 = `_*< Instagram downloader/>*_\n\n▢ *URL:* _${shortUrl3}_`.trim();
           for (const {url} of resultssss) await conn.sendFile(m.chat, url, 'error.mp4', txt4, m);
         } catch {
           try {
-            let cap = 'Here is your insta video';
+            let cap = 'Here is your insta video *DOWNLOADED BY @MR_HIDDENX*';
             const human = await fetch(`https://api.lolhuman.xyz/api/instagram?apikey=${lolkeysapi}&url=${args[0]}`);
             const json = await human.json();
             const videoig = json.result;
