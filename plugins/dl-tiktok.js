@@ -10,7 +10,7 @@ if (!args[0] && !m.quoted) throw `Give the link of the video Tiktok or quote a t
  if (!args[0].match(/tiktok/gi)) throw `Verify that the link is from TikTok`;
  
  
-  let txt = 'Hᴇʀᴇ ɪs ʏᴏᴜʀ ᴛɪᴋᴛᴏᴋ ᴠɪᴅᴇᴏ✅';
+  let txt = 'Hᴇʀᴇ ɪs ʏᴏᴜʀ ᴛɪᴋᴛᴏᴋ ᴠɪᴅᴇᴏ✅ *DOWNLOADED BY @MR_HIDDENX*';
 
   try {
     const { author: { nickname }, video, description } = await tiktokdl(args[0]);
@@ -34,6 +34,6 @@ if (!args[0] && !m.quoted) throw `Give the link of the video Tiktok or quote a t
 
 handler.help = ['tiktok'].map((v) => v + ' <url>');
 handler.tags = ['downloader'];
-handler.command = ['tk', 'tiktok', 'ttdl'];
+handler.command = ['tk', 'tiktok', 'ttdl', 'ٹکٹاک', 'tt', 'danish'];
 
 export default handler;
