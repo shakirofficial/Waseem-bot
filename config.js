@@ -5,13 +5,13 @@ import fs from 'fs'
 
 //Owner Numbers 
 global.owner = [
-  ['923042205427', 'Prince', false],
+  ['254758943247', 'eliphas', false],
   [''], 
   [''],
 ]
 
 //global.pairingNumber = "" //put your bot number here
-global.mods = ['923042205427'] 
+global.mods = ['254758943247'] 
 global.prems = ['923042205427', '923042205427', '923042205427']
 global.allowed = ['923042205427']
 global.keysZens = ['c2459db922', '37CC845916', '6fb0eff124']
@@ -37,10 +37,10 @@ global.APIKeys = { // APIKey Here
 }
 
 // Sticker WM
-global.botname = 'PЯINCΣ-BOT-MÐ'
+global.botname = 'eliphas'
 global.princebot = '🛡️ᑭᖇIᑎᑕᕮ ᗷOT ᗰᗪ🛡️'
 global.packname = 'Prince♥️' 
-global.author = 'Prince♥️' 
+global.author = 'eliphas' 
 global.princeig = 'https://www.instagram.com' 
 global.princegp = 'https://chat.whatsapp.com/GWJkAJSgbv27sGOMLAzMDS'
 global.menuvid = 'https://i.imgur.com/GFAAXqw.mp4'
