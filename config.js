@@ -5,12 +5,12 @@ import fs from 'fs'
 
 //Owner Numbers 
 global.owner = [
-  ['923042205427', 'Prince', false],
+  ['92726486482', 'madusha', true],
   [''], 
   [''],
 ]
 
-//global.pairingNumber = "" //put your bot number here
+//global.pairingNumber = "94726486482" //put your bot number here
 global.mods = ['923042205427'] 
 global.prems = ['923042205427', '923042205427', '923042205427']
 global.allowed = ['923042205427']
