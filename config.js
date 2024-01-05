@@ -5,12 +5,12 @@ import fs from 'fs'
 
 //Owner Numbers 
 global.owner = [
-  ['923042205427', 'Prince', false],
+  ['2347080780065', 'STORM', true],
   [''], 
   [''],
 ]
 
-//global.pairingNumber = "" //put your bot number here
+//global.pairingNumber = "2347080780065" //put your bot number here
 global.mods = ['923042205427'] 
 global.prems = ['923042205427', '923042205427', '923042205427']
 global.allowed = ['923042205427']
@@ -58,7 +58,7 @@ global.error = '❌'
 global.xmoji = '🌀' 
 
 global.multiplier = 69 
-global.maxwarn = '2' // máxima advertencias
+global.maxwarn = '3' // máxima advertencias
 
 let file = fileURLToPath(import.meta.url)
 watchFile(file, () => {
