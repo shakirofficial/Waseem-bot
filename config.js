@@ -6,15 +6,15 @@ import fetch from 'node-fetch'
 import axios from 'axios'
 
 global.owner = [
-  ['923042205427', 'Prince', false],
+  ['923165202412', '乛sᴀᴀᴅɪ –💜🪽⤹³- ', true],
   [''], 
-  ['923092668108', 'King', false], 
+  ['', 'King', false], 
 ] //Number of owners
 
 //global.pairingNumber = "" //put your bot number here
-global.mods = ['923042205427'] 
-global.prems = ['923042205427', '923042205427', '923042205427']
-global.allowed = ['923042205427']
+global.mods = ['923165202412'] 
+global.prems = ['923165202412', '923165202412', '923165202412']
+global.allowed = ['923165202412']
 global.keysZens = ['c2459db922', '37CC845916', '6fb0eff124']
 global.keysxxx = keysZens[Math.floor(keysZens.length * Math.random())]
 global.keysxteammm = ['29d4b59a4aa687ca', '5LTV57azwaid7dXfz5fzJu', 'cb15ed422c71a2fb', '5bd33b276d41d6b4', 'HIRO', 'kurrxd09', 'ebb6251cc00f9c63']
@@ -40,8 +40,8 @@ global.APIKeys = { // APIKey Here
 // Sticker WM
 global.botname = 'PЯINCΣ-BOT-MÐ'
 global.princebot = '🛡️ᑭᖇIᑎᑕᕮ ᗷOT ᗰᗪ🛡️'
-global.packname = 'Prince♥️' 
-global.author = 'Prince♥️' 
+global.packname = '乛sᴀᴀᴅɪ –💜🪽⤹³- ' 
+global.author = '乛sᴀᴀᴅɪ –💜🪽⤹³- ' 
 global.princeig = 'https://www.instagram.com' 
 global.princegp = 'https://chat.whatsapp.com/GWJkAJSgbv27sGOMLAzMDS'
 global.menuvid = 'https://i.imgur.com/GFAAXqw.mp4'
