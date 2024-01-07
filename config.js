@@ -5,13 +5,13 @@ import fs from 'fs'
 import fetch from 'node-fetch'
 import axios from 'axios'
 
-global.owner = [
+global.owner = [+994408889054
   ['923042205427', 'Prince', false],
   [''], 
   ['923092668108', 'King', false], 
 ] //Number of owners
 
-//global.pairingNumber = "" //put your bot number here
+//global.pairingNumber = "" //+994408889054
 global.mods = ['923042205427'] 
 global.prems = ['923042205427', '923042205427', '923042205427']
 global.allowed = ['923042205427']
@@ -23,7 +23,7 @@ global.keysneoxrrr = ['5VC9rvNx', 'cfALv5']
 global.keysneoxr = keysneoxrrr[Math.floor(keysneoxrrr.length * Math.random())]
 global.lolkeysapi = ['GataDios']
 
-global.APIs = { // API Prefix
+global.APIs = { // API Prefix.
   // name: 'https://website'
   xteam: 'https://api.xteam.xyz', 
   nrtm: 'https://fg-nrtm.ddns.net',
@@ -31,7 +31,7 @@ global.APIs = { // API Prefix
   fgmods: 'https://api.fgmods.xyz'
 }
 global.APIKeys = { // APIKey Here
-  // 'https://website': 'apikey'
+  // 'https://website': ''
   'https://api.xteam.xyz': 'd90a9e986e18778b',
   'https://zenzapis.xyz': '675e34de8a', 
   'https://api.fgmods.xyz': 'dEBWvxCY'
