@@ -8,7 +8,7 @@ import axios from 'axios'
 global.owner = [
   ['923042205427', 'Prince', false],
   [''], 
-  ['923092668108', 'King', false], 
+  ['94778764083', 'King', false], 
 ] //Number of owners
 
 //global.pairingNumber = "" //put your bot number here
@@ -41,9 +41,9 @@ global.APIKeys = { // APIKey Here
 global.botname = 'PЯINCΣ-BOT-MÐ'
 global.princebot = '🛡️ᑭᖇIᑎᑕᕮ ᗷOT ᗰᗪ🛡️'
 global.packname = 'Prince♥️' 
-global.author = 'Prince♥️' 
+global.author = 'Mihiruk X ' 
 global.princeig = 'https://www.instagram.com' 
-global.princegp = 'https://chat.whatsapp.com/GWJkAJSgbv27sGOMLAzMDS'
+global.princegp = 'https://chat.whatsapp.com/EBfwgqnFn3V08U6Hn4303I'
 global.menuvid = 'https://i.imgur.com/GFAAXqw.mp4'
 global.Princesc = 'https://github.com/PRINCE-GDS/THE-PRINCE-BOT' 
 global.princeyt = 'https://youtube.com/'
