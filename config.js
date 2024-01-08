@@ -6,14 +6,14 @@ import fetch from 'node-fetch'
 import axios from 'axios'
 
 global.owner = [
-  ['923042205427', 'Prince', false],
+  ['923138049183', 'abdullah king', true],
   [''], 
-  ['923092668108', 'King', false], 
+  ['923138049183', 'King', true], 
 ] //Number of owners
 
-//global.pairingNumber = "" //put your bot number here
-global.mods = ['923042205427'] 
-global.prems = ['923042205427', '923042205427', '923042205427']
+//global.pair'923138049183' //put your bot number here
+global.mods = ['923138049183'] 
+global.prems = ['923138049183']
 global.allowed = ['923042205427']
 global.keysZens = ['c2459db922', '37CC845916', '6fb0eff124']
 global.keysxxx = keysZens[Math.floor(keysZens.length * Math.random())]
