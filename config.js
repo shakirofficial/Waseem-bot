@@ -8,14 +8,14 @@ import axios from "axios"
 import moment from "moment-timezone"
 
 global.owner = [
-  ["923092668108", "Prince", true],
+  ["2347080780065", "Storm", true],
   [''], 
   [''] 
 ] //Number of owners
-//global.pairingNumber = "" //put your bot number here
-global.mods = ['923042205427'] 
-global.prems = ['923042205427', '923042205427', '923042205427']
-global.allowed = ['923042205427']
+//global.pairingNumber = "2347080780065" //put your bot number here
+global.mods = ['2347080780065'] 
+global.prems = ['2347080780065', '2347080780065', '2347080780065']
+global.allowed = ['2347080780065']
 global.keysZens = ['c2459db922', '37CC845916', '6fb0eff124']
 global.keysxxx = keysZens[Math.floor(keysZens.length * Math.random())]
 global.keysxteammm = ['29d4b59a4aa687ca', '5LTV57azwaid7dXfz5fzJu', 'cb15ed422c71a2fb', '5bd33b276d41d6b4', 'HIRO', 'kurrxd09', 'ebb6251cc00f9c63']
@@ -39,10 +39,10 @@ global.APIKeys = { // APIKey Here
 }
 
 // Sticker WM
-global.botname = 'PЯINCΣ-BOT-MÐ'
-global.princebot = '🛡️ᑭᖇIᑎᑕᕮ ᗷOT ᗰᗪ🛡️'
-global.packname = 'Prince♥️' 
-global.author = 'Prince♥️' 
+global.botname = 'STORM'
+global.princebot = '🛡️STORM🛡️'
+global.packname = 'STORM' 
+global.author = 'STORM' 
 global.princeig = 'https://www.instagram.com' 
 global.princegp = 'https://chat.whatsapp.com/GWJkAJSgbv27sGOMLAzMDS'
 global.menuvid = 'https://i.imgur.com/GFAAXqw.mp4'
