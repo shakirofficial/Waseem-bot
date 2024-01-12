@@ -16,7 +16,12 @@ let handler = async (m, { conn }) => {
         key: pingMsg.key,
         type: 14,
         editedMessage: {
-          conversation: `🚀Pong!...Done ${latency} ms` 
+          conversation: `
+          *⸙• 「「⸙」‎🌸🖥️*                 
+             
+        *ʟᴀᴛᴇɴᴄʏ: 17.4873 _ᴍs_*
+                 🔐⚠️  
+    *🫀🄼 [••𝗧𝗢𝗣 𝗟𝗘𝗚𝗘𝗡𝗗••]* ${latency} ms` 
         }
       }
     }, {})
