@@ -45,10 +45,10 @@ global.packname = '[••𝗧𝗢𝗣 𝗟𝗘𝗚𝗘𝗡𝗗••]'
 global.author = 'Mahar Husnain' 
 global.princeig = 'https://www.instagram.com' 
 global.princegp = 'https://chat.whatsapp.com/K7QfBRsk6491a6649GhvAS'
-global.menuvid = 'https://i.imgur.com/CHPFZYF.mp4'
+global.menuvid = 'https://i.imgur.com/Itjw9D4.mp4'
 global.Princesc = 'https://github.com/PRINCE-GDS/THE-PRINCE-BOT' 
 global.princeyt = 'https://youtube.com/@HusnainInformation73'
-global.Princelog = 'https://i.imgur.com/hUMTe7d.jpg'
+global.Princelog = 'https://i.imgur.com/Itjw9D4.mp4'
 global.thumb = fs.readFileSync('./Assets/Prince.png')
 
 global.wait = '*♻️ _𝙶𝙴𝚃𝚃𝙸𝙽𝙶 𝚈𝙾𝚄𝚁 𝙵𝙸𝙻𝙴 𝚆𝙰𝙸𝚃..._*\n*▰▰▰▱▱▱▱▱*'
