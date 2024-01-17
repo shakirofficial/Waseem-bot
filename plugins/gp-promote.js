@@ -25,7 +25,7 @@ handler.help = ['promote']
 handler.tags = ['group']
 handler.command = ['promote', 'promover', 'p'] 
 handler.group = true
-handler.admin = true
+handler.admin = false
 handler.botAdmin = true
 handler.fail = null
 
