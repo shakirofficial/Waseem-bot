@@ -12,7 +12,7 @@ import moment from "moment-timezone"
 
 
 global.owner = [
-  ["923092668108", "Prince", false],
+  ["254737970208", "kairostime", true],
   [''], 
   [''] 
 ]
@@ -20,7 +20,7 @@ global.owner = [
 
 
 //💌global.pairingNumber = "" //put your bot number here💌
-global.mods = ['923042205427'] 
+global.mods = ['254737970208'] 
 global.prems = ['']
 global.allowed = ['']
 global.keysZens = ['c2459db922', '37CC845916', '6fb0eff124']
