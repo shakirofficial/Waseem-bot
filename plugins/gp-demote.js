@@ -28,7 +28,7 @@ handler.help = ['demote (@tag)']
 handler.tags = ['group']
 handler.command = ['demote', 'degradar', 'd'] 
 handler.group = true
-handler.admin = true
+handler.admin = false
 handler.botAdmin = true
 handler.fail = null
 
