@@ -114,7 +114,7 @@ global.princegpt = [gpt1, gpt2, gpt3, gpt4, gpt5, gpt6]
 
 
 // Moderator 
-global.developer = 'https://wa.me/message/DCAK67ON3XVOG1' //contact
+global.developer = 'https://wa.me/923196663628' //contact
 //💌------------------------------------------💌
 
 
@@ -122,8 +122,8 @@ global.developer = 'https://wa.me/message/DCAK67ON3XVOG1' //contact
 //Sticker WM
 global.botname = ' *ᗪ乇ᐯ|ㄥ ☠︎︎ 乙ㄖ几乇*'
 global.princebot = '🛡️ *ᗪ乇ᐯ|ㄥ ☠︎︎ 乙ㄖ几乇*🛡️'
-global.packname = 'Abdulla♥️' 
-global.author = 'Abdullah♥️' 
+global.packname = '❉্᭄͜͡  ﾑ乃りひﾚﾚﾑん' 
+global.author = '❉্᭄͜͡  ﾑ乃りひﾚﾚﾑん' 
 global.princeig = 'https://www.instagram.com' 
 global.princegp = 'https://wa.me/923196663628'
 global.menuvid = 'https://i.imgur.com/'
