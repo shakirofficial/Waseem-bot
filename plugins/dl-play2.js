@@ -24,7 +24,7 @@ const handler = async (m, {conn, command, args, text, usedPrefix}) => {
     } else if (command === 'video') {
       additionalText = 'video 🎥';
     }
-    const texto1 = `╭━━⊱🌟 Y O U T U B E 🌟⊱━━╮
+    const texto1 = `╭━━⊱🌟J O L T E R  Y T V🌟⊱━━╮
     
   🪩 Channel: ${yt_play[0].author.name}
   📃 Title: ${yt_play[0].title}
