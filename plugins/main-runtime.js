@@ -1,6 +1,8 @@
+import displayLoadingScreen from '../lib/loading.js'
 
 let handler = async (m, { conn, args, usedPrefix, command }) => {
-	
+let pp = 'https://i.pinimg.com/736x/eb/a7/25/eba725b9c8df5d9b199e950694f18aaf.jpg'
+await displayLoadingScreen(conn, m.chat)
 	let _muptime
     if (process.send) {
       process.send('uptime')
@@ -10,7 +12,27 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
       }) * 1000
     }
     let muptime = clockString(_muptime)
-   m.reply(`🏮 *Bot active duration*  \n\n${muptime}`) 
+    let str = `*あMANNO RUNTIMEあ* *\n\n${muptime}*`
+    conn.sendMessage(m.chat, {
+      text: str,
+      contextInfo: {
+      
+      mentionedJid: [m.sender],
+      isForwarded: true,
+            forwardedNewsletterMessageInfo: {
+                newsletterJid: '120363178281296360@newsletter',
+                newsletterName: global.author,
+                serverMessageId: -1
+            },
+      forwardingScore: 999,
+      externalAdReply: {
+      title: "𝘔𝘈𝘕𝘕𝘕𝘖-𝘉𝘖𝘛-𝘔𝘋",
+      body: "R U N T I M E",
+      thumbnailUrl: pp,
+      sourceUrl: 'https://i.imgur.com/EOU8n5C.jpg',
+      mediaType: 1,
+      renderLargerThumbnail: true
+      }}})
 }
 handler.help = ['runtime']
 handler.tags = ['main']
