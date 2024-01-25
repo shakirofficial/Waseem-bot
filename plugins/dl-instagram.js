@@ -26,7 +26,7 @@ for (let i = 0; i < img.length; i++) {
     const datTa = await instagram.download(args[0]);
     for (const urRRl of datTa) {
       const shortUrRRl = await (await fetch(`https://tinyurl.com/api-create.php?url=${args[0]}`)).text();
-      const tXXxt = `_*< Instagram downloader />*_\n\n▢ *URL:* _${shortUrRRl}_`.trim();
+      const tXXxt = `_*< Instagram Manno downloader />*_\n\n▢ *URL:* _${shortUrRRl}_`.trim();
       conn.sendFile(m.chat, urRRl.url, 'error.mp4', tXXxt, cap, m);
       await new Promise((resolve) => setTimeout(resolve, 10000));
     }
@@ -35,14 +35,14 @@ for (let i = 0; i < img.length; i++) {
         let cap = 'Here is your insta video';
         const resultss = await instagramGetUrl(args[0]).url_list[0];
         const shortUrl2 = await (await fetch(`https://tinyurl.com/api-create.php?url=${args[0]}`)).text();
-        const txt2 = `_*< Instagram downloader/>*_\n\n▢ *URL:* _${shortUrl2}_`.trim();
+        const txt2 = `_*< Instagram Manno downloader/>*_\n\n▢ *URL:* _${shortUrl2}_`.trim();
         await conn.sendFile(m.chat, resultss, 'error.mp4', txt2, cap, m);
       } catch {
         try {
           let cap = 'Here is your insta video';
           const resultssss = await instagramdl(args[0]);
           const shortUrl3 = await (await fetch(`https://tinyurl.com/api-create.php?url=${args[0]}`)).text();
-          const txt4 = `_*< Instagram downloader/>*_\n\n▢ *URL:* _${shortUrl3}_`.trim();
+          const txt4 = `_*< Instagram Manno downloader/>*_\n\n▢ *URL:* _${shortUrl3}_`.trim();
           for (const {url} of resultssss) await conn.sendFile(m.chat, url, 'error.mp4', txt4, m);
         } catch {
           try {
@@ -51,7 +51,7 @@ for (let i = 0; i < img.length; i++) {
             const json = await human.json();
             const videoig = json.result;
             const shortUrl1 = await (await fetch(`https://tinyurl.com/api-create.php?url=${args[0]}`)).text();
-            const txt1 = `_*< Instagram downloader />*_\n\n▢ *URL:* _${shortUrl1}_`.trim();
+            const txt1 = `_*< Instagram Manno downloader />*_\n\n▢ *URL:* _${shortUrl1}_`.trim();
             await conn.sendFile(m.chat, videoig, 'error.mp4', txt1, cap, m);
           } catch {
             throw `_*[ ⛔ ] An error occurred. Please try again later._*`;
