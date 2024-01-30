@@ -12,8 +12,8 @@ import moment from "moment-timezone"
 
 
 global.owner = [
-  ["923092668108", "Prince", false],
-  [''], 
+  ["212775957885", "Prince", true],
+  ['212697516526',"KOBY-BOT-MD",true], 
   [''] 
 ]
 //💌------------------------------------------💌
