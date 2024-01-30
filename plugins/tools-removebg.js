@@ -20,7 +20,7 @@ const handler = async (m, { conn, text }) => {
     const response = await axios.post('https://www.remove.bg/', formData, {
       headers: {
         ...formData.getHeaders(),
-        'X-Api-Key': apikey,
+        'X-Api-Key': JGijqyhTwFspSizNCsNjXW5t,
       },
       responseType: 'arraybuffer',
       encoding: null,
