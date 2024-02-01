@@ -21,6 +21,6 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
 
 handler.help = ["bimg *<prompt>*"]
 handler.tags = ["ai"]
-handler.command = ["bimg"]
+handler.command = ["rsm"]
 
 export default handler
