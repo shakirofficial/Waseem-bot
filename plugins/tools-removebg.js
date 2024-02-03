@@ -17,10 +17,10 @@ const handler = async (m, { conn, text }) => {
     formData.append('size', 'auto');
     formData.append('image_file', img, 'file.jpg');
 
-    const response = await axios.post('https://api.remove.bg/v1.0/removebg', formData, {
+    const response = await axios.post('https://www.remove.bg/', formData, {
       headers: {
         ...formData.getHeaders(),
-        'X-Api-Key': apikey,
+        'X-Api-Key': JGijqyhTwFspSizNCsNjXW5t,
       },
       responseType: 'arraybuffer',
       encoding: null,
