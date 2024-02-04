@@ -22,7 +22,7 @@ const handler = async (m, {conn, args}) => {
       const n = lolh.result.title || 'error';
       const n2 = lolh.result.link;
       const n3 = lolh.result.size;
-      const cap2 = `*◉╭━⊱⌈📥 𝐘𝐎𝐔𝐓𝐔𝐁𝐄 𝐃𝐋 📥⌋⊱━╮◉*\n🪩*Title:* ${n}\n🪩*Size:* ${n3}`.trim();
+      const cap2 = `*◉╭━⊱⌈📥 JOLTER YT DL 📥⌋⊱━╮◉*\n🪩*Title:* ${n}\n🪩*Size:* ${n3}`.trim();
       await conn.sendMessage(m.chat, {document: {url: n2}, caption: cap2, mimetype: 'video/mp4', fileName: n + `.mp4`}, {quoted: m});
     } catch {
       m.react(done)
