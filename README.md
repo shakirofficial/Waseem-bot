@@ -7,7 +7,7 @@
 
 
 <p align="center">
-<a href="https://github.com/Itxmanno05/THE-MANNO-BOT"><img title="Author" src="https://img.shields.io/badge/THE PRINCE BOT-black?style=for-the-badge&logo=github"></a>
+<a href="https://github.com/Itxmanno05/THE-MANNO-BOT"><img title="Author" src="https://img.shields.io/badge/THE MANNO BOT-black?style=for-the-badge&logo=github"></a>
 <p/>
 
 <p align="center">
