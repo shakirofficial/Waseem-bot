@@ -51,7 +51,7 @@
 
 1. If You don't have an account in Replit. Create a account.
     <br>
-<p align="left"><a href="https://replit.com/signup"> <img src="https://i.imgur.com/ppd1XA0.jpg/badge/replit%20Account-purple?style=for-the-badge&logo=replit" width="220" height="38.45"/></a></p>
+<p align="left"><a href="https://replit.com/signup"> <img src="https://img.shields.io/badge/replit%20Account-purple?style=for-the-badge&logo=replit" width="220" height="38.45"/></a></p>
 
 2. Now Deploy
     <br>
