@@ -100,7 +100,7 @@ $ npm start
 
 <h2 align="left">All Credits To MANNO bruh</h2>
 
-<a href="https://github.com/Itxmanno05/THE-MANNO-BOT"><img src="https://github.com/Itxmanno05/THE-MANNO-BOT" width="70" height="70" alt="Itxmanno05"/></a>
+<a href="https://github.com/Itxmanno05/THE-MANNO-BOT"><img src="https://i.imgur.com/ppd1XA0.jpg" width="70" height="70" alt="Itxmanno05"/></a>
   
 `ITX-MANNO MANNO246`
 
