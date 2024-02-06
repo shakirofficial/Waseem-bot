@@ -95,7 +95,7 @@ global.img17 = 'https://telegra.ph/file/d52a552a0b817753754e8.jpg'
 //💌------------------------------------------💌
 
 
-/Chatgpt
+//Chatgpt
 global.gpt1 = fs.readFileSync("./Assets/GPT/gpt1.jpg")
 global.gpt2 = fs.readFileSync("./Assets/GPT/gpt2.png")
 global.gpt3 = fs.readFileSync("./Assets/GPT/gpt3.png")
