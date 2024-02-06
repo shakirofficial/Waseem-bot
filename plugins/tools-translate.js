@@ -1,3 +1,4 @@
+
 import {translate} from '@vitalets/google-translate-api'
 const defaultLang = 'en'
 const tld = 'cn'
@@ -32,6 +33,6 @@ https://cloud.google.com/translate/docs/languages
 }
 handler.help = ['translate <lang> <text>']
 handler.tags = ['tools']
-handler.command = ['translate', 'tl', 'trt', 'tr']
+handler.command = ['translate', 'tl', 'trad', 'tr']
 
 export default handler
