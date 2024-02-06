@@ -60,7 +60,7 @@ global.APIKeys = { // APIKey Here
 
 
 // Bot Images 
-global.imagen1 = fs.readFileSync("./Assets/menus/menu.jpg")
+global.imagen1 = fs.readFileSync("./Assets/menus/menu.png")
 global.imagen2 = fs.readFileSync("./Assets/menus/Menu1.jpg")
 global.imagen3 = fs.readFileSync("./Assets/menus/Menu2.jpg")
 global.imagen4 = fs.readFileSync("./Assets/menus/Menu3.jpg")
@@ -96,19 +96,13 @@ global.img17 = 'https://telegra.ph/file/d52a552a0b817753754e8.jpg'
 
 
 //Chatgpt
-global.gpt1 = fs.readFileSync("./Assets/GPT/gpt1.jpg")
-global.gpt2 = fs.readFileSync("./Assets/GPT/gpt2.png")
-global.gpt3 = fs.readFileSync("./Assets/GPT/gpt3.png")
-global.gpt4 = fs.readFileSync("./Assets/GPT/gpt4.png")
-global.gpt5 = fs.readFileSync("./Assets/GPT/gpt5.png")
-global.gpt6 = fs.readFileSync("./Assets/GPT/gpt6.png")
-//💌------------------------------------------💌
+global.gpt1 = fs.readFileSync("./Assets/GPT/manno png.jpg")
 
 
 // Randome
 global.princeMenu = [img, img2, img6, img7, img8, img9, img13, img14, img15, img16, img17]
 global.princeImg = [imagen1, imagen2, imagen3, imagen4, imagen5, imagen6, imagen7, imagen8, imagen9, imagen10, imagen11]
-global.princegpt = [gpt1, gpt2, gpt3, gpt4, gpt5, gpt6]
+global.princegpt = [manno png.jpg,]
 //💌------------------------------------------💌
 
 
