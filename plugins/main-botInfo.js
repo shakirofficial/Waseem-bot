@@ -57,10 +57,10 @@ let infobt = `
 
 *≡ OWNER🧑‍💻*
  *_MANNO GDS_*
-*▢ https://chat.whatsapp.com/Esn7W3azds7EWBtJcn16Zt*
+*▢ https://chat.whatsapp.com/BNE0V8XpEZK0q4IgJ9jklM*
   
-*▢ MY POST GROUP LINK.*
-  *https://chat.whatsapp.com/Esn7W3azds7EWBtJcn16Zt*
+*▢ MY SPORTT GROUP LINK.*
+  *https://chat.whatsapp.com/BNE0V8XpEZK0q4IgJ9jklM*
 
  *≡ S E R V E R*
 *🛑 RAM:* ${format(totalmem() - freemem())} / ${format(totalmem())}
