@@ -20,7 +20,7 @@ global.owner = [
 
 
 //💌global.pairingNumber = "" //put your bot number here💌
-global.mods = ['923042205427'] 
+global.mods = ['94776441588'] 
 global.prems = ['']
 global.allowed = ['']
 global.keysZens = ['c2459db922', '37CC845916', '6fb0eff124']
@@ -136,8 +136,8 @@ global.thumb = fs.readFileSync('./Assets/Prince.png')
 
 
 //Reactions
-global.wait = '*♻️ _𝙶𝙴𝚃𝚃𝙸𝙽𝙶 𝚈𝙾𝚄𝚁 𝙵𝙸𝙻𝙴 𝚆𝙰𝙸𝚃..._*\n*▰▰▰▱▱▱▱▱*'
-global.imgs = '*🖼️ _𝙶𝙴𝚃𝚃𝙸𝙽𝙶 𝚈𝙾𝚄𝚁 ɪᴍᴀɢᴇs 𝚆𝙰𝙸𝚃..._*\n*▰▰▰▱▱▱▱▱*'
+global.wait = '*♻️ _𝙶𝙴𝚃𝚃𝙸𝙽𝙶 𝚈𝙾𝚄𝚁 𝙵𝙸𝙻𝙴 𝚆𝙰𝙸𝚃 { POWERD BY DEWLOWA }..._*\n*▰▰▰▱▱▱▱▱*'
+global.imgs = '*🖼️ _𝙶𝙴𝚃𝚃𝙸𝙽𝙶 𝚈𝙾𝚄𝚁 ɪᴍᴀɢᴇs 𝚆𝙰𝙸𝚃 { POWERD BY DEWLOWA }..._*\n*▰▰▰▱▱▱▱▱*'
 global.rwait = '♻️'
 global.dmoji = '🤭'
 global.done = '✅'
