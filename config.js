@@ -131,7 +131,7 @@ global.menuvid = 'https://i.imgur.com/8E2itvZ.mp4'
 global.Princesc = 'https://github.com/Itxmanno05/THE-MANNO-BOT' 
 global.princeyt = 'https://youtube.com/'
 global.Princelog = 'https://i.imgur.com/cUvIv5w.jpeg'
-global.thumb = fs.readFileSync('./Assets/Mano.jpg')
+global.thumb = fs.readFileSync('./Assets/manno.mp4')
 //💌------------------------------------------💌
 
 
