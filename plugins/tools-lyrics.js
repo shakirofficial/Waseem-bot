@@ -1,24 +1,27 @@
-import fetch from 'node-fetch'
+import { lirik } from "../lib/scrape.js"
 
-let handler = async (m, {conn, text }) => {
-  let teks = text ? text : m.quoted && m.quoted.text ? m.quoted.text : ''
-   if (!teks) throw `✳️ Enter the name of the song`
-   try {
-  let res = await fetch(global.API('https://some-random-api.com', '/lyrics', { title: teks }))
-  if (!res.ok) throw await res.text()
-  let json = await res.json()
-  if (!json.thumbnail.genius) throw json
-  conn.sendFile(m.chat, json.thumbnail.genius, null, `
-▢ *${json.title}*
-*${json.author}*\n
-${json.lyrics}`, m)
-m.react(done)
-} catch (e) {
-	m.react(error)
-	} 
+let handler = async (m, { conn, args, usedPrefix, command }) => {
+    const judul = args.join(' ');
+    if (!judul) throw `البحث عن كلمات اي اغنية مثال :\n${usedPrefix + command} hello`;
+    try {
+        const result = await lirik(judul);
+
+        m.reply(`
+العنوان \n*${judul}*
+
+${result.lyrics}
+
+الرابط \n ${result.link}
+    `.trim());
+
+    } catch (error) {
+        console.error('Error:', error);
+        conn.reply(m.chat, `وقعت مشكلة راسل نورالدين \ninstagram.com/noureddine_ouafy`, m);
+    }
 }
+
 handler.help = ['lyrics']
 handler.tags = ['tools']
-handler.command = ['letra', 'lyrics'] 
+handler.command = /^(lyrics)$/i
 
 export default handler
