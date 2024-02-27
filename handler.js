@@ -24,7 +24,7 @@ import {
 /**
  * @type {import("@whiskeysockets/baileys")}
  */
-const isNumber = x => typeof x === "number" && !isNaN(x)
+const isNumber = x => typeof x === "Number" && !isNaN(x)
 const delay = ms => isNumber(ms) && new Promise(resolve => setTimeout(function() {
     clearTimeout(this)
     resolve()
