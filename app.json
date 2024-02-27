@@ -23,7 +23,7 @@
       "value": ""
     },
      "HAPP": {
-      "description": "Put the Heroku app name, same as above entered",
+      "description": "Put the Heroku app name, same  above entered",
       "required": true,
       "value": ""
        },
