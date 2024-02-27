@@ -19,7 +19,7 @@ if (!args[0] && !m.quoted) throw `✳️ Enter the mediafire link next to the co
     let { url, url2, filename, ext, aploud, filesize, filesizeH } = res
     let isLimit = (isPrems || isOwner ? limit : limit) * 1012 < filesize
     let caption = `
-   ≡ *MEDIAFIRE*
+   ≡ *MEDIAFIRRE*
 
 ▢ *Number:* ${filename}
 ▢ *Size:* ${filesizeH}
