@@ -12,15 +12,15 @@ import moment from "moment-timezone"
 
 
 global.owner = [
-  ["923092668108", "Prince", false],
+  ["923116801881", "Jabran", true],
   [''], 
   [''] 
 ]
 //💌------------------------------------------💌
 
 
-//💌global.pairingNumber = "" //put your bot number here💌
-global.mods = ['923042205427'] 
+//💌global.pairingNumber = "923116801881" //put your bot number here💌
+global.mods = ['923116801881'] 
 global.prems = ['']
 global.allowed = ['']
 global.keysZens = ['c2459db922', '37CC845916', '6fb0eff124']
@@ -120,12 +120,12 @@ global.developer = 'https://wa.me/message/DCAK67ON3XVOG1' //contact
 
 
 //Sticker WM
-global.botname = '𝘗𝘙𝘐𝘕𝘊𝘌-𝘉𝘖𝘛-𝘔𝘋'
-global.princebot = '🛡️𝘗𝘙𝘐𝘕𝘊𝘌-𝘉𝘖𝘛-𝘔𝘋🛡️'
-global.packname = 'Prince♥️' 
-global.author = 'Prince♥️' 
+global.botname = '☀┽☻︵JaBran 🅹&Ꭺ‿✍᭄❖'
+global.princebot = '☀┽☻︵JaBran 🅹&Ꭺ‿✍᭄❖'
+global.packname = 'Jabran❤️🅹&Ꭺ🔥♥️' 
+global.author = 'Jabran❤️🅹&Ꭺ🔥' 
 global.princeig = 'https://www.instagram.com' 
-global.princegp = 'https://chat.whatsapp.com/GWJkAJSgbv27sGOMLAzMDS'
+global.princegp= 'https://chat.whatsapp.com/ET0LmRneeD87jRKa2tIbaU'
 global.menuvid = 'https://i.imgur.com/GFAAXqw.mp4'
 global.Princesc = 'https://github.com/PRINCE-GDS/THE-PRINCE-BOT' 
 global.princeyt = 'https://youtube.com/'
