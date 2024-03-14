@@ -22,7 +22,7 @@ let handler = async(m, { conn, text, usedPrefix, command }) => {
           title: "THE-PRINCE-BOT IS ALIVE",
           body: "PRINCE BOT",
           thumbnailUrl: img,
-          sourceUrl: 'https://chat.whatsapp.com/Jo5bmHMAlZpEIp75mKbwxP',
+          sourceUrl: 'https://chat.whatsapp.com/L54cslATpsMDO07ajwuqIc',
           mediaType: 1,
           renderLargerThumbnail: true
           }}
