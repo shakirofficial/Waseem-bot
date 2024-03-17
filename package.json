@@ -1,5 +1,5 @@
 { 
-    "name": "prince-bot",
+    "name": "BINAL-BOT",
     "version": "2.0.0",
     "description": "Advanced WhatsApp Bot",
     "main": "index.js",
@@ -19,15 +19,15 @@
         "whatsapp",
         "js-whatsapp",
         "whatsapp",
-        "prince-bot",
-        "PRINCE-bot-md",
+        "binali-bot",
+        "ALAMIN-bot-md",
         "multi-device",
         "MD",
         "baileys-md"
     ],
     "homepage": "https://github.com/PRINCE-GDS/THE-PRINCE-BOT",
     "author": {
-        "name": "PRINCE"
+        "name": "ALAMIN"
     },
     "repository": {
         "type": "git",
