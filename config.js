@@ -12,17 +12,17 @@ import moment from "moment-timezone"
 
 
 global.owner = [
-  ["923092668108", "Prince", false],
-  [''], 
-  [''] 
+  ["2348057627946", "KING DAVID TV", true],
+  [2348057627946'], 
+  ['2348057627946'] 
 ]
 //💌------------------------------------------💌
 
 
-//💌global.pairingNumber = "" //put your bot number here💌
-global.mods = ['923042205427'] 
-global.prems = ['']
-global.allowed = ['']
+//💌global.pairingNumber = "2348057627946" //put your bot number here💌
+global.mods = ['2348057627946'] 
+global.prems = ['2348057627946']
+global.allowed = ['2348057627946']
 global.keysZens = ['c2459db922', '37CC845916', '6fb0eff124']
 global.keysxxx = keysZens[Math.floor(keysZens.length * Math.random())]
 global.keysxteammm = ['29d4b59a4aa687ca', '5LTV57azwaid7dXfz5fzJu', 'cb15ed422c71a2fb', '5bd33b276d41d6b4', 'HIRO', 'kurrxd09', 'ebb6251cc00f9c63']
@@ -120,16 +120,16 @@ global.developer = 'https://wa.me/message/DCAK67ON3XVOG1' //contact
 
 
 //Sticker WM
-global.botname = '𝘗𝘙𝘐𝘕𝘊𝘌-𝘉𝘖𝘛-𝘔𝘋'
-global.princebot = '🛡️𝘗𝘙𝘐𝘕𝘊𝘌-𝘉𝘖𝘛-𝘔𝘋🛡️'
-global.packname = 'Prince♥️' 
-global.author = 'Prince♥️' 
-global.princeig = 'https://www.instagram.com' 
-global.princegp = 'https://chat.whatsapp.com/GWJkAJSgbv27sGOMLAzMDS'
+global.botname = 'KING DAVID TV 2348057627946'
+global.kingdavid = 'KING DAVID TV'
+global.packname = 'KING DAVID TV' 
+global.author = 'KING DAVID TV' 
+global.princeig = 'https://www.instagram.com/kingdevolee' 
+global.princegp = 'https://chat.whatsapp.com/Gl23eMreXPeIEcMrv6lqLP'
 global.menuvid = 'https://i.imgur.com/GFAAXqw.mp4'
-global.Princesc = 'https://github.com/PRINCE-GDS/THE-PRINCE-BOT' 
+global.Princesc = 'https://github.com/KingDevolee' 
 global.princeyt = 'https://youtube.com/'
-global.Princelog = 'https://i.imgur.com/cUvIv5w.jpeg'
+global.Princelog = 'https://telegra.ph/file/0a662de24dc772af3d621.jpg'
 global.thumb = fs.readFileSync('./Assets/Prince.png')
 //💌------------------------------------------💌
 
