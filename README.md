@@ -1,13 +1,13 @@
  <p align="center">  
   <a href="">
-    <img alt="PRINCE" width="600" height="350" src="https://i.imgur.com/iI086tX.jpeg">
+    <img alt="BIN ALI" width="600" height="350" src="https://i.imgur.com/iI086tX.jpeg">
   </a>
 </p>
 
 
 
 <p align="center">
-<a href="https://github.com/PRINCE-GDS/THE-PRINCE-BOT"><img title="Author" src="https://img.shields.io/badge/THE PRINCE BOT-black?style=for-the-badge&logo=github"></a>
+<a href="https://github.com/PRINCE-GDS/THE-BINALI-BOT"><img title="Author" src="https://img.shields.io/badge/THE PRINCE BOT-black?style=for-the-badge&logo=github"></a>
 <p/>
 
 <p align="center">
