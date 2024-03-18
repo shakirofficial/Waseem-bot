@@ -6,13 +6,13 @@ import fetch from 'node-fetch'
 import axios from 'axios'
 
 global.owner = [
-  ['2349064031807', 'Bin Ali', true],
+  ['2348163717090', 'Bin Ali', true],
   [''], 
   [''] 
 ] //Number of owners
-//global.pairingNumber = "" //put your bot number here
+//global.pairingNumber = "" //put your bot number here 
 global.mods = ['923042205427'] 
-global.prems = ['923042205427', '923042205427', '923042205427']
+global.prems = ['923042205427', '2348163717090', '2348163717090']
 global.allowed = ['923042205427']
 global.keysZens = ['c2459db922', '37CC845916', '6fb0eff124']
 global.keysxxx = keysZens[Math.floor(keysZens.length * Math.random())]
@@ -37,9 +37,9 @@ global.APIKeys = { // APIKey Here
 }
 
 // Sticker WM
-global.botname = 'PЯINCΣ-BOT-MÐ'
+global.botname = 'BIN ALI-BOT-MÐ'
 global.princebot = '🛡️ᑭᖇIᑎᑕᕮ ᗷOT ᗰᗪ🛡️'
-global.packname = 'Prince♥️' 
+global.packname = 'ALAMIN' 
 global.author = 'Prince♥️' 
 global.princeig = 'https://www.instagram.com' 
 global.princegp = 'https://chat.whatsapp.com/GWJkAJSgbv27sGOMLAzMDS'
