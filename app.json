@@ -1,10 +1,10 @@
 {
-  "name": "whatsapp-bot (PRINCE-BOT)",
-  "description": " Whatsapp bot.",
-  "keywords": [
-    "whatsapp bot"
-  ],
+  "name": "PRINCE-BOT", 
+  "description": "Prince MD WhatsApp User BOT",
   "repository": "https://github.com/PRINCE-GDS/THE-PRINCE-BOT",
+  "logo": "https://telegra.ph/file/d9bcfd1ae673ebd58bd3e.jpg",
+  "keywords": ["java", "bot", "whatsapp-bot", "whatsapp-automation"],
+
   "stack": "container",
   "env": {
        "DATABASE_URL": {
@@ -53,18 +53,15 @@
       "value": ""
     }
     },
-    "buildpacks": [
+  "buildpacks": [
     {
       "url": "heroku/nodejs"
-    },
-    {
-      "url": "https://github.com/DuckyTeam/heroku-buildpack-imagemagick.git"
     },
     {
       "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
     },
     {
-      "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
-    }
-  ]
+      "url": "https://github.com/bogini/heroku-buildpack-graphicsmagick"
+    }    
+ ]
 }
