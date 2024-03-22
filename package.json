@@ -38,7 +38,7 @@
     },
     "license": "Apache License 2.0",
     "dependencies": {
-        "@whiskeysockets/baileys": "npm:@whiskeysockets/baileys",
+        "@whiskeysockets/baileys": "^6.5.0",
         "@adiwajshing/keyed-db": "^0.2.4",
         "@bochilteam/scraper": "^4.0.22-alpha.0",
         "awesome-phonenumber": "^3.4.0",
