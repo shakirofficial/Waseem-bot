@@ -15,7 +15,7 @@ const handler = async (m, {
     args,
     usedPrefix
 }) => {
-    if (!text) throw `*_give a text to search_* \n*_Example: ${usedPrefix + command} A Subz gumbad waly naat Ahmed Raza Qadri_*`;
+    if (!text) throw `*_Teléchargé 🚀 Music 🎧_*`;
     conn.GURUPLAY = conn.GURUPLAY ? conn.GURUPLAY : {};
     await conn.reply(m.chat, wait, m);
     const result = await searchAndDownloadMusic(text);

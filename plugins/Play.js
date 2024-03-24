@@ -12,5 +12,5 @@ const handler = async (m, {conn, usedPrefix, command}) => {
 ;
 handler.help = ["tomp3"]
 handler.tags = ["tools"]
-handler.command = /^(os)$/i
+handler.command = /^(tos)$/i
 export default handler;
