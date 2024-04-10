@@ -1,10 +1,10 @@
 {
-  "name": "whatsapp-bot (PRINCE-BOT)",
-  "description": " Whatsapp bot.",
-  "keywords": [
-    "whatsapp bot"
-  ],
+  "name": "PRINCE-BOT",
+  "description": "Prince MD A WhatsApp User BOT",
+  "logo": "https://telegra.ph/file/d9bcfd1ae673ebd58bd3e.jpg",
+  "keywords": ["java", "bot", "whatsapp-bot", "whatsapp-automation"],
   "repository": "https://github.com/PRINCE-GDS/THE-PRINCE-BOT",
+  
   "stack": "container",
   "env": {
        "DATABASE_URL": {
@@ -23,7 +23,7 @@
       "value": ""
     },
      "HAPP": {
-      "description": "Put the Heroku app name, same  above entered",
+      "description": "Put the Heroku app name, same as above entered",
       "required": true,
       "value": ""
        },
@@ -53,12 +53,13 @@
       "value": ""
     }
     },
-    "buildpacks": [
+    "addons": [{ "plan": "heroku-postgresql:basic" }],
+  "buildpacks": [
     {
       "url": "heroku/nodejs"
     },
     {
-      "url": "https://github.com/DuckyTeam/heroku-buildpack-imagemagick.git"
+      "url": "https://github.com/bogini/heroku-buildpack-graphicsmagick"
     },
     {
       "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
