@@ -504,10 +504,10 @@ export async function handler(chatUpdate) {
         } catch (e) {
             console.log(m, m.quoted, e)
         }
-        if (process.env.autoRead)
+        if (typeof process.env.AUTOREAD === 'undefined' || process.env.AUTOREAD.toLowerCase() === 'false') return;
             await conn.readMessages([m.key])
-        if (process.env.statusview && m.key.remoteJid === 'status@broadcast') 
-            await conn.readMessages([m.key])
+        if if (typeof process.env.STATUSVIEW === 'undefined' || process.env.STATUSVIEW.toLowerCase() === 'false') return;
+        if (m.key.remoteJid === 'status@broadcast')
     }
 }
 
@@ -741,7 +741,7 @@ export async function deleteUpdate(message) {
        
             await this.reply(conn.user.id, ` 
             *Number :* @${participant.split`@`[0]} 
-            ✅ʜᴀs ʙᴇᴇɴ ᴅᴇʟᴇᴛᴇᴅ ᴀ ᴍᴇssᴀɢᴇ ʙᴇʟᴏᴡ👇🏻
+            👀ʜᴀs ᴅᴇʟᴇᴛᴇᴅ ᴀ ᴍᴇssᴀɢᴇ ʙᴇʟᴏᴡ👇🏻
             `.trim(), msg, {
                         mentions: [participant]
                     })
