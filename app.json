@@ -37,12 +37,12 @@
       "required": false,
       "value": "false"
        },
-    "statusview": {
+    "STATUSVIEW": {
       "description": "make it true if you want bot to view status",
       "required": false,
       "value": ""
     },
-    "autoRead": {
+    "AUTOREAD": {
       "description": "make it true if you want bot to read messages",
       "required": false,
       "value": ""
