@@ -508,8 +508,9 @@ export async function handler(chatUpdate) {
             await conn.readMessages([m.key])
         if (typeof process.env.STATUSVIEW === 'undefined' || process.env.STATUSVIEW.toLowerCase() === 'false') return;
         if (m.key.remoteJid === 'status@broadcast')
+    
     }
-
+ },
 
 /**
  * Handle groups participants update
