@@ -506,7 +506,7 @@ export async function handler(chatUpdate) {
         }
         if (typeof process.env.AUTOREAD === 'undefined' || process.env.AUTOREAD.toLowerCase() === 'false') return;
             await conn.readMessages([m.key])
-        if if (typeof process.env.STATUSVIEW === 'undefined' || process.env.STATUSVIEW.toLowerCase() === 'false') return;
+        if (typeof process.env.STATUSVIEW === 'undefined' || process.env.STATUSVIEW.toLowerCase() === 'false') return;
         if (m.key.remoteJid === 'status@broadcast')
     }
 }
