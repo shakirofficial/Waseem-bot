@@ -504,10 +504,13 @@ export async function handler(chatUpdate) {
         } catch (e) {
             console.log(m, m.quoted, e)
         }
-        if (typeof process.env.AUTOREAD === 'undefined' || process.env.AUTOREAD.toLowerCase() === 'false') return;
-            await conn.readMessages([m.key])
-        if (typeof process.env.STATUSVIEW === 'undefined' || process.env.STATUSVIEW.toLowerCase() === 'false') return;
-        if (m.key.remoteJid === 'status@broadcast')
+        if (process.env.AUTOREAD)
+    await conn.readMessages([m.key])
+if (process.env.STATUSVIEW && m.key.remoteJid === 'status@broadcast')
+    await conn.readMessages([m.key])
+    this.copyNForward(conn.user.id, msg, false)
+  }
+}
 
 //STATUSVIEW AND AUTOREAD 
 
