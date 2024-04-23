@@ -5,7 +5,6 @@
 </p>
 
 
-
 <p align="center">
 <a href="https://github.com/PRINCE-GDS/THE-PRINCE-BOT"><img title="Author" src="https://img.shields.io/badge/THE PRINCE BOT-black?style=for-the-badge&logo=github"></a>
 <p/>
@@ -72,7 +71,7 @@
 
 
    <p align="left">
-      <a href="https://chat.whatsapp.com/Jo5bmHMAlZpEIp75mKbwxP"><img height= "40" length= "10" title="Author" src="https://img.shields.io/badge/Support Group-25D366?style=for-the-badge&logo=whatsApp&logoColor=white"></a>
+      <a href="https://chat.whatsapp.com/I4V2ICnfolk6G90OBxRYHs"><img height= "40" length= "10" title="Author" src="https://img.shields.io/badge/Support Group-25D366?style=for-the-badge&logo=whatsApp&logoColor=white"></a>
      <p/>
 
 
