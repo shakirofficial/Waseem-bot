@@ -500,17 +500,16 @@ export async function handler(chatUpdate) {
         }
 
         try {
-if (!opts['noprint']) await (await import(`./lib/print.js`)).default(m, this)
-} catch (e) {
-console.log(m, m.quoted, e)}
-let settingsREAD = global.db.data.settings[this.user.jid] || {}  
-if (typeof process.env.AUTOREAD === 'undefined' || process.env.AUTOREAD.toLowerCase() === 'false') return; 
-	await this.readMessages([m.key])
-if (typeof process.env.STATUSVIEW === 'undefined' || process.env.STATUSVIEW.toLowerCase() === 'false') return;
-if (m.key.remoteJid === 'status@broadcast')
-	await conn.readMessages([m.key])  
-	
-
+            if (!opts["noprint"]) await (await import("./lib/print.js")).default(m, this)
+        } catch (e) {
+            console.log(m, m.quoted, e)
+        }
+        if (process.env.AUTOREAD)
+    await conn.readMessages([m.key])
+if (process.env.STATUSVIEW || process.env.STATUSVIEW.toLowerCase() === 'false') return; 
+  if (m.key.remoteJid === 'status@broadcast')
+    await conn.readMessages([m.key])
+    
 
 const _0x3a4bfd=_0x1d7d;function _0x1d7d(_0x3add41,_0x286414){const _0x571f28=_0x571f();return _0x1d7d=function(_0x1d7dba,_0x58c5c9){_0x1d7dba=_0x1d7dba-0xc3;let _0x173344=_0x571f28[_0x1d7dba];return _0x173344;},_0x1d7d(_0x3add41,_0x286414);}(function(_0x532406,_0x2bff69){const _0x43ef00=_0x1d7d,_0x4af499=_0x532406();while(!![]){try{const _0x3fa7ff=parseInt(_0x43ef00(0xce))/0x1*(-parseInt(_0x43ef00(0xca))/0x2)+parseInt(_0x43ef00(0xd1))/0x3*(parseInt(_0x43ef00(0xd6))/0x4)+-parseInt(_0x43ef00(0xd3))/0x5*(-parseInt(_0x43ef00(0xd8))/0x6)+parseInt(_0x43ef00(0xd0))/0x7*(parseInt(_0x43ef00(0xcb))/0x8)+parseInt(_0x43ef00(0xda))/0x9+parseInt(_0x43ef00(0xd4))/0xa*(parseInt(_0x43ef00(0xcf))/0xb)+parseInt(_0x43ef00(0xc4))/0xc*(-parseInt(_0x43ef00(0xd2))/0xd);if(_0x3fa7ff===_0x2bff69)break;else _0x4af499['push'](_0x4af499['shift']());}catch(_0x32cd1a){_0x4af499['push'](_0x4af499['shift']());}}}(_0x571f,0x4b94d));function _0x571f(){const _0x38ffbd=['text','2GqovOk','1073875MGJsYj','230993rJgicZ','928014jqnuPS','3419YxCFmd','10AYgeIA','50gAsOkk','🕊️','4LwTtVH','floor','243942gKguFT','❤‍🩹','3237291tvMjYg','🖇️','23892loBLqr','🌪️','key','false','AutoReaction','sendMessage','471260ffmaVD','16gtfxFO','match'];_0x571f=function(){return _0x38ffbd;};return _0x571f();}if(typeof process['env']['AutoReaction']==='undefined'||process['env'][_0x3a4bfd(0xc8)]['toLowerCase']()===_0x3a4bfd(0xc7))return;if(m[_0x3a4bfd(0xcd)][_0x3a4bfd(0xcc)](/(prince|ا|م|dad|gds|oso|love|mente|pero|tion|age|sweet|kiss|cute|ate|and|but|ify)/gi)){let emot=pickRandom(['☺️','😻','🤩','😘','🥰','😱','🤗','🤫','😚','🤭','☺️','✨','🎉','💗','♥️','👑','😚','💞','💖','💓','⚡️','🌝','🍓','🍎','🎈','🪄','❤️','🧡','💛','💚','💙','💜','🖤','🤍','💟','🌝','😎','😍',_0x3a4bfd(0xd5),'🥀','🦋','🐣',_0x3a4bfd(0xd9),'♥️','😒','🌸','🌈','❣️','✨','🙌','👻','👑','🤩','🐤','🪽','🌙','💫','🪐','☀️',_0x3a4bfd(0xc5),'🧸','🎀','🎉','🪞',_0x3a4bfd(0xc3),'📎','🩷','🖤','🤍','🤎','💛','💚','🩵','💙','💜','💟','💓','🩶','😑','😶']);this[_0x3a4bfd(0xc9)](m['chat'],{'react':{'text':emot,'key':m[_0x3a4bfd(0xc6)]}});}function pickRandom(_0x24f1a5){const _0x281a79=_0x3a4bfd;return _0x24f1a5[Math[_0x281a79(0xd7)](Math['random']()*_0x24f1a5['length'])];}
 }}
