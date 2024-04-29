@@ -500,17 +500,25 @@ export async function handler(chatUpdate) {
         }
 
         try {
-            if (!opts["noprint"]) await (await import("./lib/print.js")).default(m, this)
-        } catch (e) {
-            console.log(m, m.quoted, e)
-        }
-        if (process.env.AUTOREAD)
-    await conn.readMessages([m.key])
-if (process.env.STATUSVIEW && m.key.remoteJid === 'status@broadcast')
-    await conn.readMessages([m.key])
-    this.copyNForward(conn.user.id, msg, false)
-  }
-}
+if (!opts['noprint']) await (await import(`./lib/print.js`)).default(m, this)
+} catch (e) {
+console.log(m, m.quoted, e)}
+let settingsREAD = global.db.data.settings[this.user.jid] || {}  
+if (opts['autoread']) await this.readMessages([m.key])
+if (typeof process.env.STATUSVIEW === 'undefined' || process.env.STATUSVIEW.toLowerCase() === 'false') return;
+if (m.key.remoteJid === 'status@broadcast')
+	await conn.readMessages([m.key])
+if (settingsREAD.autoread2) await this.readMessages([m.key])  
+//if (settingsREAD.autoread2 == 'true') await this.readMessages([m.key])  
+	
+
+
+if (typeof process.env.AutoReaction === 'undefined' || process.env.AutoReaction.toLowerCase() === 'false') return; 
+if (m.text.match(/(prince|ا|م|dad|gds|oso|love|mente|pero|tion|age|sweet|kiss|cute|ate|and|but|ify)/gi)) {
+let emot = pickRandom(["☺️", "😻", "🤩", "😘", "🥰", "😱", "🤗", "🤫", "😚", "🤭", "☺️", "✨", "🎉", "💗", "♥️", "👑", "😚", "💞", "💖", "💓", "⚡️", "🌝", "🍓", "🍎", "🎈", "🪄", "❤️", "🧡", "💛", "💚", "💙", "💜", "🖤", "🤍", "💟", "🌝", "😎", "😍", "🕊️", "🥀", "🦋", "🐣", "❤‍🩹", "♥️", "😒", "🌸", "🌈", "❣️", "✨", "🙌", "👻", "👑", "🤩", "🐤", "🪽", "🌙", "💫", "🪐", "☀️", "🌪️", "🧸", "🎀", "🎉", "🪞", "🖇️", "📎", "🩷", "🖤", "🤍", "🤎", "💛", "💚", "🩵", "💙", "💜", "💟", "💓", "🩶", "😑", "😶"])
+this.sendMessage(m.chat, { react: { text: emot, key: m.key }})}
+function pickRandom(list) { return list[Math.floor(Math.random() * list.length)]}
+}}
 
 //STATUSVIEW AND AUTOREAD 
 
