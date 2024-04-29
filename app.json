@@ -42,7 +42,7 @@
       "required": false,
       "value": "false"
     },
-    "AutoReaction ": {
+    "AutoReaction": {
       "description": "make it true if you want bot to react on chats",
       "required": false,
       "value": "false"
