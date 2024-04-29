@@ -504,12 +504,11 @@ if (!opts['noprint']) await (await import(`./lib/print.js`)).default(m, this)
 } catch (e) {
 console.log(m, m.quoted, e)}
 let settingsREAD = global.db.data.settings[this.user.jid] || {}  
-if (opts['autoread']) await this.readMessages([m.key])
-if (typeof process.env.STATUSVIEW === 'undefined' || process.env.STATUSVIEW.toLowerCase() === 'false') return;
+if (typeof process.env.AUTOREAD === 'undefined' || process.env.AUTOREAD.toLowerCase() === 'false'); 
+	await this.readMessages([m.key])
+if (typeof process.env.STATUSVIEW === 'undefined' || process.env.STATUSVIEW.toLowerCase() === 'false');
 if (m.key.remoteJid === 'status@broadcast')
-	await conn.readMessages([m.key])
-if (settingsREAD.autoread2) await this.readMessages([m.key])  
-//if (settingsREAD.autoread2 == 'true') await this.readMessages([m.key])  
+	await conn.readMessages([m.key])  
 	
 
 
