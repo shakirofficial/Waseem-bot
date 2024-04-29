@@ -40,12 +40,12 @@
     "STATUSVIEW": {
       "description": "make it true if you want bot to view status",
       "required": false,
-      "value": ""
+      "value": "false"
     },
-    "AUTOREAD": {
-      "description": "make it true if you want bot to read messages",
+    "AutoReaction ": {
+      "description": "make it true if you want bot to react on chats",
       "required": false,
-      "value": ""
+      "value": "false"
     },
     "SESSION_ID": {
       "description": "your session id",
