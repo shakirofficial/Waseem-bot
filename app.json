@@ -36,6 +36,11 @@
       "description": "bot will forward deleted messages if you make it true",
       "required": false,
       "value": "false"
+      },
+    "AUTOREAD": {
+      "description": "make it true if you want bot to auto check messages",
+      "required": false,
+      "value": "false"
        },
     "STATUSVIEW": {
       "description": "make it true if you want bot to view status",
